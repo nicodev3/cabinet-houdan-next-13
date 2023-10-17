@@ -4,7 +4,6 @@ import Test from '@/app/components/Test'
 export default function Home() {
   return (
     <main className="container mx-auto py-12">
-      <Test />
       <section className="mb-10 grid gap-5 md:mb-12 md:grid-cols-2 md:gap-28">
         <div>
           <h1 className="mb-5 text-2xl font-semibold">
