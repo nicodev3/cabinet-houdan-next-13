@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Test from '@/app/components/Test'
 
 export default function Home() {
   return (
@@ -110,6 +109,14 @@ export default function Home() {
           votre activité. Pour plus d&apos;informations ou pour réserver un
           espace, contactez-nous dès aujourd&apos;hui.
         </p>
+      </section>
+
+      <section id="contact">
+        <p>
+          Pour toute information, nous vous invitons à nous contacter par
+          téléphone ou par email.
+        </p>
+        <Image src="/mail.png" alt="email adress" width="278" height="86" />
       </section>
     </main>
   )
