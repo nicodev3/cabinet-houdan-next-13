@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import GalleryCard from '@/app/components/GalleryCard'
 
 export default function Home() {
   return (
@@ -41,7 +42,7 @@ export default function Home() {
         />
       </section>
 
-      <section>
+      <section id="avantages" className="mb-10 md:mb-12">
         <h2 className="mb-5 text-2xl font-semibold">
           Les avantages du cabinet
         </h2>
@@ -89,7 +90,37 @@ export default function Home() {
         </div>
       </section>
 
-      <section>
+      <section
+        id="gallery"
+        className="mb-10 grid gap-5 md:mb-12 md:grid-cols-2"
+      >
+        <GalleryCard
+          image_src="/cabinet-houdan-paysage-1.jpg"
+          image_alt=""
+          image_width={1000}
+          image_height={500}
+        />
+        <GalleryCard
+          image_src="/cabinet-houdan-paysage-2.jpg"
+          image_alt=""
+          image_width={1000}
+          image_height={500}
+        />
+        <GalleryCard
+          image_src="/cabinet-houdan-portrait-2.jpg"
+          image_alt=""
+          image_width={500}
+          image_height={1000}
+        />
+        <GalleryCard
+          image_src="/cabinet-houdan-portrait-3.jpg"
+          image_alt=""
+          image_width={500}
+          image_height={1000}
+        />
+      </section>
+
+      <section id="tarifs" className="mb-10 md:mb-12">
         <h2 className="mb-5 text-2xl font-semibold">Tarifs</h2>
         <p className="mb-3">
           Tarif à la Demi-journée : <span className="font-semibold">40</span> €
@@ -112,6 +143,7 @@ export default function Home() {
       </section>
 
       <section id="contact">
+        <h2 className="mb-5 text-2xl font-semibold">Contact</h2>
         <p>
           Pour toute information, nous vous invitons à nous contacter par
           téléphone ou par email.

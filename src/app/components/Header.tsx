@@ -2,8 +2,8 @@ import Link from 'next/link'
 
 const Header = () => {
   return (
-    <header className="mx-auto border-b border-secondary py-5">
-      <nav className="container mx-auto flex items-center gap-5 text-2xl">
+    <header className="sticky top-0 mx-auto border-b border-secondary bg-white py-5">
+      <nav className="container mx-auto flex items-center gap-5 text-lg md:text-2xl">
         <Link
           href="#avantages"
           className="transition-colors hover:text-lime-600"
