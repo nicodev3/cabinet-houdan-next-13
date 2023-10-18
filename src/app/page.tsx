@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import GalleryCard from '@/app/components/GalleryCard'
+import Avantages from '@/app/components/Avantages'
 
 export default function Home() {
   return (
@@ -42,53 +43,7 @@ export default function Home() {
         />
       </section>
 
-      <section id="avantages" className="mb-10 md:mb-12">
-        <h2 className="mb-5 text-2xl font-semibold">
-          Les avantages du cabinet
-        </h2>
-        <div className="grid gap-8 md:grid-cols-2">
-          <div>
-            <h3 className="mb-3 text-2xl">Équipements de Notre Cabinet</h3>
-            <p>
-              Notre cabinet pluridisciplinaire à Sceaux est équipé pour répondre
-              à vos besoins professionnels. Vous trouverez des espaces de
-              consultation confortables, une cuisine bien équipée pour vos
-              pauses, ainsi que des toilettes modernes pour votre confort.
-            </p>
-          </div>
-          <div>
-            <h3 className="mb-3 text-2xl">Espace de Consultation Polyvalent</h3>
-            <p>
-              Notre espace de consultation est conçu pour accueillir des
-              professionnels de toutes disciplines. Que vous soyez médecin,
-              psychologue, thérapeute, ou expert en bien-être, nos bureaux sont
-              adaptés à votre pratique indépendante. Personnalisez votre espace
-              pour répondre à vos besoins spécifiques.
-            </p>
-          </div>
-          <div>
-            <h3 className="mb-3 text-2xl">Situation Idéale à Sceaux</h3>
-            <p>
-              Notre cabinet est stratégiquement situé au cœur de Sceaux, offrant
-              un accès facile à vos patients. Vous bénéficierez de la proximité
-              des transports en commun, de commerces locaux, et d&apos;un
-              environnement paisible propice à la consultation. La localisation
-              idéale pour votre pratique.
-            </p>
-          </div>
-          <div>
-            <h3 className="mb-3 text-2xl">Professions Adaptées au Cabinet</h3>
-            <p>
-              Les professionnels de la santé, psychologues, psychiatres,
-              thérapeutes, nutritionnistes, coachs, et bien d&apos;autres
-              peuvent exercer dans notre cabinet pluridisciplinaire. Nous
-              favorisons la diversité des pratiques pour offrir à nos locataires
-              une communauté riche en connaissances et en opportunités de
-              collaboration.
-            </p>
-          </div>
-        </div>
-      </section>
+      <Avantages />
 
       <section
         id="gallery"
@@ -120,7 +75,10 @@ export default function Home() {
         />
       </section>
 
-      <section id="tarifs" className="mb-10 md:mb-12">
+      <section
+        id="tarifs"
+        className="mb-10 md:mb-12"
+      >
         <h2 className="mb-5 text-2xl font-semibold">Tarifs</h2>
         <p className="mb-3">
           Tarif à la Demi-journée : <span className="font-semibold">40</span> €
@@ -148,7 +106,12 @@ export default function Home() {
           Pour toute information, nous vous invitons à nous contacter par
           téléphone ou par email.
         </p>
-        <Image src="/mail.png" alt="email adress" width="278" height="86" />
+        <Image
+          src="/mail.png"
+          alt="email adress"
+          width="278"
+          height="86"
+        />
       </section>
     </main>
   )
