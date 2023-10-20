@@ -14,27 +14,24 @@ export default function Home() {
           </h1>
           <p className="mb-5">
             Découvrez notre cabinet pluridisciplinaire à Sceaux, l&apos;endroit
-            parfait pour établir votre pratique de santé. Notre espace moderne
-            offre une variété de bureaux équipés pour les professionnels de la
-            santé, des psychologues aux thérapeutes en passant par les experts
-            en bien-être.
+            idéal pour établir votre pratique. Notre espace moderne et agréable
+            offre une variété de bureaux équipés pour les professionnels du
+            soin, des psychologues aux thérapeutes en passant par les experts en
+            bien-être.
           </p>
           <p className="pb-5">
             Avec un emplacement central dans la ville de Sceaux, vos patients
             auront un accès facile à votre cabinet. Nous nous engageons à créer
             un environnement accueillant et fonctionnel pour votre travail.
-            Réservez dès aujourd&apos;hui pour offrir à vos patients le meilleur
-            de la santé et du bien-être.
           </p>
           <p>
-            Pour les professionnels de la santé cherchant un cabinet
-            pluridisciplinaire à Sceaux, notre établissement offre des bureaux
-            équipés dans un emplacement central de la ville. Adapté aux
-            psychologues, thérapeutes et experts en bien-être, le cabinet vise à
-            fournir un espace de travail fonctionnel et accueillant.
-            L&apos;accès aux transports en commun est aisé. Pour plus
-            d&apos;informations ou pour prendre une réservation, n&apos;hésitez
-            pas à nous contacter.
+            Pour les professionnels cherchant un cabinet pluridisciplinaire à
+            Sceaux, notre établissement offre des bureaux équipés dans un
+            emplacement central de la ville. Adapté aux psychologues,
+            thérapeutes et experts en bien-être, le cabinet vise à fournir un
+            espace de travail fonctionnel et accueillant. L&apos;accès aux
+            transports en commun est aisé. Pour plus d&apos;informations,
+            n&apos;hésitez pas à nous contacter.
           </p>
         </div>
         <Image
