@@ -13,8 +13,8 @@ const config: Config = {
     },
     extend: {
       colors: {
-        primary: '#63a00d',
-        secondary: '#4b7aad',
+        primary: '#4F800A',
+        secondary: '#4979AB',
         tertiary: '#a62e6d',
       },
     },
