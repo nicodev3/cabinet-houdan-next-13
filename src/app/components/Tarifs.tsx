@@ -2,7 +2,7 @@ const Tarifs = () => {
   return (
     <section
       id="tarifs"
-      className="mb-10 md:mb-12"
+      className="mb-10 md:mb-12 md:w-2/3"
     >
       <h2 className="mb-5 text-2xl font-semibold">Tarifs</h2>
       <p className="mb-3">
