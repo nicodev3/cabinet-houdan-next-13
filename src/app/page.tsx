@@ -3,6 +3,7 @@ import GalleryCard from '@/app/components/GalleryCard'
 import Avantages from '@/app/components/Avantages'
 import Tarifs from '@/app/components/Tarifs'
 import Contact from '@/app/components/Contact'
+import Dispos from '@/app/components/Dispos'
 
 export default function Home() {
   return (
@@ -60,19 +61,9 @@ export default function Home() {
           image_width={1000}
           image_height={500}
         />
-        <GalleryCard
-          image_src="/cabinet-houdan-portrait-2.jpg"
-          image_alt=""
-          image_width={500}
-          image_height={1000}
-        />
-        <GalleryCard
-          image_src="/cabinet-houdan-portrait-3.jpg"
-          image_alt=""
-          image_width={500}
-          image_height={1000}
-        />
       </section>
+
+      <Dispos />
 
       <Tarifs />
 
