@@ -30,7 +30,7 @@ const Dispos = () => {
           <tr className="text-center">
             <td>PM</td>
             <td className="bg-lime-600 text-white">&#10004;</td>
-            <td className="bg-red-200"></td>
+            <td className="bg-lime-600 text-white">&#10004;</td>
             <td className="bg-red-200"></td>
             <td className="bg-red-200"></td>
             <td className="bg-red-200"></td>
